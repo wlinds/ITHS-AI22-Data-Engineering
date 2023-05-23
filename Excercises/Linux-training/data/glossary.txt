@@ -1,0 +1,34 @@
+| Command | What does the command do | Some useful options |
+| ------- | ------------------------ | ------------------- |
+| cd      |     change dir           |                     |
+| ls      |     list files & dir     |                     |
+| touch   |     create               |                     |
+| wc      |     count words, lines   |                     |
+| grep    |     search pattern       |                     |
+| mkdir   |     make directory       |                     |
+| mv      |     move files           |                     |
+| rm      |     remove               |                     |
+| rmdir   |     remove dir           |                     |
+| ssh     |     secure shell         |                     |
+| curl    |     client url (api)     |                     |
+| sudo    |     super user           |                     |
+| apt-get |     manage packages      |                     |
+| ps      |     active process       |                     |
+| cp      |     copy                 |                     |
+| less    |     format ls            |                     |
+| top     |     show active proceses |                     |
+| head    |     print top n data     |                     |
+| echo    |     output passed args   |                     |
+| cat     |     read/write           |                     |
+| chmod   |     change permission    |                     |
+| chown   |     change owner         |                     |
+| kill    |     kill process         |                     |
+| &&      |     AND_IF, continue     |                     |
+| wget    |     download             |                     |
+| pwd     |     print current dir    |                     |
+| >>      |     append               |                     |
+| >       |     replace              |                     |
+| \*      |     asterisk as literal  |                     |
+| ./      |     current dir          |                     |
+| diff    |     compare files        |                     |
+| find    |     search               |                     |
