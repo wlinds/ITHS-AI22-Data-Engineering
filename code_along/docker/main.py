@@ -17,7 +17,7 @@ app.layout = html.Div([
         html.Label("Select rolls"),
         dcc.Dropdown(id="dropdown", options=dropdown_options, value=10)
     ]),
-    
+
     html.Button("Roll Dice", id="roll-button", n_clicks=0),
     dcc.Graph(id="dice-result")
 ])
@@ -40,3 +40,4 @@ def roll_dice(n_clicks, num_rolls):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+    app.run_server(host="0.0.0.0", debug=True, port=8050)
