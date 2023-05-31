@@ -34,7 +34,7 @@ def user_map():
     fig.update_layout(
         mapbox_style="open-street-map",
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
-        mapbox=dict(center=dict(lat, lon)),
+        mapbox=dict(center=dict(lat=40.7749, lon=-96.4194)),
     )
     return fig
 
