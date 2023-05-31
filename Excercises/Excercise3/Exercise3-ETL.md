@@ -16,9 +16,20 @@ PO shows you the handover that he got and tells you that they can't run the prog
 
 PO is tired of not understanding this cruical code, so he wants you to document it and explain the code in detail. Make an explanation on a higher level for PO and the team and one technical explanation for the technical person in the team. It would be nice to see pictures, diagrams or other visualizations to ease the explanation. You can try explain for a friend and see if it is understandable.
 
-The handover can be found in [Lec3-ETL_pipeline](https://github.com/kokchun/Data-engineering-AI22/tree/main/Lecture-code/Lec3-ETL_pipeline/scripts).
-
 ---
+
+>**Probing questions**:
+>
+>I pulled some data from https://random-data-api.com and well, the dashboard works just fine... Kinda. We seem to be missing the entire database though. Any ideas of what happened to it? When was the last time the dashboard worked? 
+
+>**High level explanation**
+>
+>The dashboard loads users data and supposedly tracks users positions.
+
+>**Technical explanation**
+>
+>The dashboard loads data previously pulled from an API. The latitude/longtitude is not working.
+
 ## 2. Dockerize the app
 
 The technical person wants you to dockerize the app so that it's possible to see the dashboard from localhost. Another requirement is that the data is persisted so we don't lose our user data. Then she can take over and deploy the app. Note that you might need to rewrite some parts of the code. 
