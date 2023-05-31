@@ -1,13 +1,13 @@
-| Command | What does the command do | Some useful options |
-| ------- | ------------------------ | ------------------- |
+| Command | What does the command do | Some useful options | And it does.. 
+| ------- | ------------------------ | ------------------- | -------------
 | cd      |     change dir           |                     |
 | ls      |     list files & dir     |                     |
 | touch   |     create               |                     |
 | wc      |     count words, lines   |                     |
 | grep    |     search pattern       |                     |
 | mkdir   |     make directory       |                     |
-| mv      |     move files           |                     |
-| rm      |     remove               |                     |
+| mv      |     move files           | -- dir_name/* .     | Move dir up
+| rm      |     remove               | rm -rf *            | Removes all
 | rmdir   |     remove dir           |                     |
 | ssh     |     secure shell         |                     |
 | curl    |     client url (api)     |                     |
